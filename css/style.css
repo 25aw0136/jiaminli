@@ -57,6 +57,7 @@ body {
 }
 
 /* ======================================================================== */
+/* ================================button-star============================= */
 
 
 .page-design .button-design {
@@ -64,13 +65,15 @@ body {
     color: #1D1D1F;
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(237, 237, 237);
     border-radius: 40px;
     border: 1px solid #F8F8F8;
     background: #FFF;
-    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    /* box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14); */
+    /* box-shadow: 2px 4px 15px -2px rgba(0, 0, 0, 0.20); */
+    box-shadow: 0 4px 13px -2px rgba(0, 0, 0, 0.18);
     transition: background-color 0.2s ease;
 
 }
@@ -79,7 +82,7 @@ body {
 .page-design .button-about {
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 40px;
     background-color: #DDDDDF;
@@ -109,7 +112,7 @@ body {
 
 
 
-/* ======================================================================== */
+/* ================================================ */
 
 
 
@@ -119,41 +122,25 @@ body {
     color: #1D1D1F;
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(237, 237, 237);
     border-radius: 40px;
     border: 1px solid #F8F8F8;
     background: #FFF;
-    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 4px 13px -2px rgba(0, 0, 0, 0.18);
     transition: background-color 0.2s ease;
 }
-
-
-
 
 .page-photo .button-photo-a {
     color: #1D1D1F;
 }
 
-
-.page-photo .button-design {
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    background-color: #DDDDDF;
-    transition: background-color 0.4s ease;
-}
-
-
-
 .page-photo .button-design,
 .page-photo .button-about {
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 40px;
     background-color: #DDDDDF;
@@ -181,7 +168,7 @@ body {
 }
 
 
-/* ======================================================================== */
+/* ============================================= */
 
 
 .page-about .button-about {
@@ -189,13 +176,13 @@ body {
     color: #1D1D1F;
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgb(237, 237, 237);
     border-radius: 40px;
     border: 1px solid #F8F8F8;
     background: #FFF;
-    box-shadow: 1px 3px 15.1px -2px rgba(0, 0, 0, 0.14);
+    box-shadow: 0 4px 13px -2px rgba(0, 0, 0, 0.18);
     transition: background-color 0.2s ease;
 }
 
@@ -207,23 +194,13 @@ body {
 }
 
 
-.page-about .button-design {
-    padding-left: 34px;
-    padding-right: 34px;
-    padding-top: 8px;
-    padding-bottom: 10px;
-    border-radius: 40px;
-    background-color: #DDDDDF;
-    transition: background-color 0.4s ease;
-}
-
 
 
 .page-about .button-design,
 .page-about .button-photo {
     padding-left: 34px;
     padding-right: 34px;
-    padding-top: 8px;
+    padding-top: 10px;
     padding-bottom: 10px;
     border-radius: 40px;
     background-color: #DDDDDF;
@@ -250,22 +227,8 @@ body {
     color: #f2f2f2;
 }
 
-
-
-
-
 /* ======================================================================== */
-
-
-
-
-
-
-
-
-
-
-
+/* ================================button-end============================= */
 
 .sakuhin-link {
     display: block;
@@ -313,6 +276,7 @@ figure {
 
 .sakuhin-h3 {
     margin: 0;
+    margin-top: -10px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 12px;
@@ -330,7 +294,7 @@ figure {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 600;
     font-style: normal;
-    color: #1d1d1f;
+    color: #1d1d1ffa;
 }
 
 .sakuhin-p {
@@ -340,9 +304,9 @@ figure {
     padding-right: 10px;
     font-size: 13px;
     font-family: "Zen Kaku Gothic New", sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
-    color: #1d1d1f;
+    color: #1d1d1fb4;
 }
 
 .sakuhin-b {
@@ -370,4 +334,133 @@ figure {
     font-weight: 400;
     font-style: normal;
     color: #1d1d1f;
+}
+
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ==============================zenkikadai-star=========================== */
+.page-zenkikadai .main {
+
+    max-width: 1000px;
+    height: 2000px;
+    width: 100%;
+
+}
+
+.blog-content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.button-back {
+    margin-top: 60px;
+    color: #1d1d1f;
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+    border: 1px solid #0f0f0f;
+    background: #252525;
+    box-shadow: 1px 5px 12px -1px rgba(0, 0, 3, 0.3);
+    transition:
+        box-shadow 0.18s ease,
+        transform 0.18s ease;
+}
+
+.button-back:hover {
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.15);
+    transform: translateY(1px);
+}
+
+.but-left {
+    position: relative;
+    right: 3px;
+    top: 1px;
+}
+
+.button-back {
+    position: fixed;
+    z-index: 1000;
+}
+
+.topimg {
+    margin-top: 160px;
+    width: 100%;
+    border-radius: 40px;
+}
+
+.h2-blog {
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
+.h1-blog {
+    margin-top: -20px;
+    font-size: 40px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
+.p-blog {
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.p-blog-1 {
+    margin-top: 80px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.v1-blog {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.zenki-img-1 {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.p-blog-2 {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.zenki-img-2 {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.zenki-img-3 {
+    width: 40%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
 }
