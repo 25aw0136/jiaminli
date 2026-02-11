@@ -345,7 +345,7 @@ figure {
 .page-zenkikadai .main {
 
     max-width: 1000px;
-    height: 2000px;
+    height: 2200px;
     width: 100%;
 
 }
@@ -410,6 +410,15 @@ figure {
     color: #1D1D1F;
 }
 
+.h3-blog {
+    margin-top: -30px;
+    font-size: 14px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
 .p-blog {
     font-size: 15px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -420,7 +429,22 @@ figure {
 }
 
 .p-blog-1 {
-    margin-top: 80px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.p-blog-2,
+.p-blog-3,
+.p-blog-4,
+.p-blog-5,
+.p-blog-6 {
+    margin-top: 50px;
     margin-bottom: 50px;
     font-size: 15px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -442,25 +466,68 @@ figure {
     border: 1px solid #dddddd;
 }
 
-.p-blog-2 {
-    margin-top: 50px;
-    margin-bottom: 30px;
-    font-size: 15px;
-    font-family: "Zen Kaku Gothic New", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    color: #1D1D1F;
-    line-height: 2;
+
+
+.zenki-img-2-1,
+.zenki-img-2-2 {
+    width: 48%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
 }
 
-.zenki-img-2 {
+.zenki-img-g-1 {
+    display: flex;
+    gap: 2%;
+
+}
+
+.zenki-img-3 {
     width: 100%;
     border-radius: 40px;
     border: 1px solid #dddddd;
 }
 
-.zenki-img-3 {
-    width: 40%;
+
+.zenki-img-4 {
+    width: 100%;
     border-radius: 40px;
     border: 1px solid #dddddd;
+}
+
+.zenki-img-5-1,
+.zenki-img-5-2,
+.zenki-img-6-1,
+.zenki-img-6-2 {
+    width: 48%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.zenki-img-g-2 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5%;
+    row-gap: 30px;
+}
+
+.v1-blog-2 {
+    margin-top: 30px;
+}
+
+.zenki-img-7 {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.zenki-img-8 {
+    margin-top: 3%;
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.blog-footer {
+    padding-left: 10%;
+    padding-right: 10%;
 }
