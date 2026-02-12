@@ -276,18 +276,19 @@ figure {
 
 .sakuhin-h3 {
     margin: 0;
-    margin-top: -10px;
+    margin-top: -6px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 12px;
     font-family: "Zen Kaku Gothic New", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     color: #1d1d1f;
 }
 
 .sakuhin-h2 {
     margin: 0;
+    margin-top: -4px;
     padding-left: 10px;
     padding-right: 10px;
     font-size: 20px;
@@ -336,14 +337,27 @@ figure {
     color: #1d1d1f;
 }
 
+.blog-footer {
+    margin-top: 180px;
+    font-size: 12px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1d1d1f;
+}
+
 
 
 /* ======================================================================== */
 /* ======================================================================== */
 /* ======================================================================== */
 /* ==============================zenkikadai-star=========================== */
-.page-zenkikadai .main {
+.page-zenkikadai {
+    background-color: #909CBD;
 
+}
+
+.page-zenkikadai .main {
     max-width: 1000px;
     height: 2200px;
     width: 100%;
@@ -387,9 +401,10 @@ figure {
 }
 
 .topimg {
-    margin-top: 160px;
+    /* margin-top: 160px; */
     width: 100%;
     border-radius: 40px;
+
 }
 
 .h2-blog {
@@ -531,3 +546,77 @@ figure {
     padding-left: 10%;
     padding-right: 10%;
 }
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ==============================zenkikadai-end=========================== */
+
+
+
+
+
+
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================kojiki-star============================= */
+
+
+.page-kojiki {
+    background-color: #F4EFEF;
+
+}
+
+
+.cyousa-img {
+    width: 48%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.kojiki-img {
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.kojiki-img-g1 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5%;
+    row-gap: 30px;
+}
+
+.kojiki-img-5 {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.kojiki-v1-blog {
+    width: 48%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.kojiki-img-6,
+.kojiki-img-7,
+.kojiki-img-8 {
+    width: 48%;
+    border-radius: 40px;
+    border: 1px solid #dddddd;
+}
+
+.kojiki-img-g2 {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 3.5%;
+    row-gap: 30px;
+}
+
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ================================kojiki-end============================= */
