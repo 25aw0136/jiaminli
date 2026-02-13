@@ -21,7 +21,7 @@ body {
     color: #1D1D1F;
 }
 
-.kojinsyoukai p {
+.syousai-pc {
 
     margin-top: 20px;
     font-size: 16px;
@@ -30,6 +30,16 @@ body {
     font-style: normal;
     color: #1d1d1fb2;
 }
+
+.syousai-phone {
+    display: none;
+}
+
+
+
+/* ======================================================================== */
+/* ================================button-star============================= */
+
 
 
 .nav {
@@ -56,9 +66,6 @@ body {
     font-weight: 600;
     text-decoration: none;
 }
-
-/* ======================================================================== */
-/* ================================button-star============================= */
 
 
 .page-design .button-design {
@@ -330,17 +337,21 @@ figure {
 
 
 .footer {
-    margin-top: 180px;
-    margin-bottom: 50px;
-    font-size: 12px;
+    padding-left: 10px;
+    margin-top: 80px;
+    font-size: 14px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
     font-style: normal;
     color: #1d1d1f;
 }
 
+.part-d {
+    padding-bottom: 30px;
+}
+
 .blog-footer {
-    margin-top: 180px;
+    margin-top: 200px;
     font-size: 12px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
@@ -544,9 +555,8 @@ figure {
     border: 1px solid #dddddd;
 }
 
-.blog-footer {
-    padding-left: 10%;
-    padding-right: 10%;
+.footer-blog {
+    margin-top: 60px;
 }
 
 
@@ -618,6 +628,10 @@ figure {
     row-gap: 30px;
 }
 
+.footer-blog {
+    margin-top: 60px;
+}
+
 /* ======================================================================== */
 /* ======================================================================== */
 /* ======================================================================== */
@@ -626,10 +640,11 @@ figure {
 
 
 
-
-
-
-/* ========== Mobile (≤ 810px) ========== */
+/* ============================ Mobile (≤ 810px) ========================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ===============================tp-page-star============================= */
 @media screen and (max-width: 810px) {
     body {
         margin: 0;
@@ -648,8 +663,18 @@ figure {
         padding-right: 20px;
     }
 
-    .kojinsyoukai p {
+    .syousai-pc {
+        display: none;
+    }
+
+    .syousai-phone {
+        display: block;
+        margin-top: 20px;
         font-size: 14px;
+        font-family: "Zen Kaku Gothic New", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: #1d1d1fb2;
     }
 
     .nav {
@@ -671,11 +696,189 @@ figure {
 
     .sakuhin-h2 {
         font-size: 16px;
+        margin-top: -2px;
     }
 
-    .sakuhin{
+    .sakuhin {
         row-gap: 30px;
 
     }
 
+
+    .menu {
+        width: 306px;
+        font-size: 15px;
+    }
+
+
+
+    .page-design .button-design {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .page-design .button-photo,
+    .page-design .button-about {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+
+    }
+
+    /* ======================================================================== */
+    /* ===============================tp-page-end============================= */
+
+    /* ======================================================================== */
+    /* ===============================photo-page-m-star============================= */
+
+    .page-photo .button-design {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .page-photo .button-photo,
+    .page-photo .button-about {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+
+    }
+
+    /* ======================================================================== */
+    /* ===============================tp-page-m-end============================= */
+
+
+
+    /* ======================================================================== */
+    /* =============================about-m-star=========================== */
+
+
+
+    .page-about .button-design {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+
+    .page-about .button-photo,
+    .page-about .button-about {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+
+
+    }
+
+
+
+
+
+
+    /* ======================================================================== */
+    /* =============================about-m-end=========================== */
+
+
+
+
+
+
+
+
+    /* ======================================================================== */
+    /* =============================zenkikadai-m-star=========================== */
+
+    .blog-content {
+        padding-left: 8%;
+        padding-right: 8%;
+    }
+
+    .button-back {
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+
+    .h1-blog {
+        line-height: 1.2;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+
+    .h2-blog {
+        font-size: 15px;
+        margin-top: 35%;
+        margin-bottom: 0px;
+        font-weight: 600;
+    }
+
+    .h3-blog {
+        margin-top: 6px;
+    }
+
+    .p-blog {
+        font-size: 14px;
+    }
+
+
+    .zenki-img-1 {
+        border-radius: 34px;
+    }
+
+    .zenki-img-g-1,
+    .zenki-img-g-2 {
+        flex-wrap: wrap;
+        row-gap: 30px;
+    }
+
+    .zenki-img-2-1,
+    .zenki-img-2-2,
+    .zenki-img-5-1,
+    .zenki-img-5-2,
+    .zenki-img-6-1,
+    .zenki-img-6-2 {
+        width: 100%;
+        border-radius: 34px;
+        border: 1px solid #dddddd;
+    }
+
+    .zenki-img-3,
+    .zenki-img-4,
+    .zenki-img-7,
+    .zenki-img-8 {
+        border-radius: 34px;
+    }
+
+
+
+    /* ======================================================================== */
+    /* =============================kojiki-m-star=========================== */
+
+    .blog-content {
+        padding-bottom: 100px;
+    }
+
+    .cyousa-img,
+    .kojiki-img-5 {
+        width: 100%;
+        border-radius: 34px;
+    }
+
+    .kojiki-img-6,
+    .kojiki-img-7,
+    .kojiki-img-8,
+    .kojiki-v1-blog {
+        width: 100%;
+        border-radius: 34px;
+        border: 1px solid #dddddd;
+
+    }
 }
