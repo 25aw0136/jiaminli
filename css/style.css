@@ -22,6 +22,7 @@ body {
 }
 
 .kojinsyoukai p {
+
     margin-top: 20px;
     font-size: 16px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -259,7 +260,7 @@ figure {
 }
 
 .figure img {
-    height: auto;
+    width: 100%;
     border-radius: 40px;
 }
 
@@ -330,6 +331,7 @@ figure {
 
 .footer {
     margin-top: 180px;
+    margin-bottom: 50px;
     font-size: 12px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
@@ -620,3 +622,60 @@ figure {
 /* ======================================================================== */
 /* ======================================================================== */
 /* ================================kojiki-end============================= */
+
+
+
+
+
+
+
+/* ========== Mobile (≤ 810px) ========== */
+@media screen and (max-width: 810px) {
+    body {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .main {
+        max-width: 420px;
+
+
+    }
+
+    .part {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .kojinsyoukai p {
+        font-size: 14px;
+    }
+
+    .nav {
+        margin-top: 40px;
+    }
+
+    .figure img {
+        width: 100%;
+        border-radius: 40px;
+    }
+
+    .sakuhin-p {
+        font-size: 12px;
+    }
+
+    .sakuhin-h3 {
+        font-size: 11px;
+    }
+
+    .sakuhin-h2 {
+        font-size: 16px;
+    }
+
+    .sakuhin{
+        row-gap: 30px;
+
+    }
+
+}
