@@ -25,7 +25,7 @@ body {
 }
 
 .icon-pc {
-    margin-top: 60px;
+    margin-top: 40px;
     display: block;
     width: 25%;
     border-radius: 40px;
@@ -36,6 +36,7 @@ body {
 }
 
 .syousai-pc {
+    margin-bottom: 0px;
     margin-top: 0px;
     font-size: 16px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -49,14 +50,14 @@ body {
 }
 
 .fade-up {
-  opacity: 0;
-  transform: translateY(40px);
-  transition: opacity 0.8s ease,transform 0.8s cubic-bezier(.33,1,.68,1);
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease, transform 0.8s cubic-bezier(.33, 1, .68, 1);
 }
 
 .fade-up.show {
-  opacity: 1;
-  transform: translateY(0);
+    opacity: 1;
+    transform: translateY(0);
 }
 
 /* ======================================================================== */
@@ -65,7 +66,7 @@ body {
 
 
 .nav {
-    margin-top: 60px;
+    margin-top: 46px;
 }
 
 .menu {
@@ -708,7 +709,11 @@ figure {
     background-color: #F4EFEF;
 
 }
+.page-kojiki .main {
+    max-width: 1000px;
+    width: 100%;
 
+}
 
 .cyousa-img {
     width: 48%;
@@ -770,7 +775,11 @@ figure {
     background-color: #C58586;
 
 }
+.page-saitosekkei .main {
+    max-width: 1000px;
+    width: 100%;
 
+}
 
 .saito-img {
     width: 100%;
@@ -864,6 +873,87 @@ figure {
 
 /* ======================================================================== */
 /* =======================photo-BLOOMNICOLE-end============================ */
+
+
+/* ======================================================================== */
+/* =======================photo-shujing-star============================ */
+
+
+.page-shujing {
+    background-color: #FFF;
+
+}
+
+.blog-photo-shujing {
+    margin-top: 10%;
+}
+
+.blog-photo-shujing img {
+    width: 50%;
+}
+
+.shujing-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0px;
+    margin-bottom: 4%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================== */
+/* =======================photo-shujing-end============================ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* ============================ Mobile (≤ 810px) ========================== */
 /* ======================================================================== */
@@ -1181,6 +1271,19 @@ figure {
     /* =======================photo-BLOOMNICOLE-m-end============================ */
 
 
+    /* ======================================================================== */
+    /* =======================photo-shujing-m-star============================ */
+    .blog-photo-shujing img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .shujing-group {
+        margin-bottom: 0px;
+    }
+
+    /* ======================================================================== */
+    /* =======================photo-shujing-m-end============================ */
 
 
 
