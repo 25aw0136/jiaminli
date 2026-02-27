@@ -715,7 +715,7 @@ figure {
     width: 50%;
     display: block;
     margin: 0 auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 .nipponshitsugen-link {
@@ -724,14 +724,40 @@ figure {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #1D1D1F;
+    color: #0D4348;
+
 }
 
-.shitsugen-tp-phone {
+.shitsugen-img-photo {
+    /* display: block; */
+    /* margin: 0 auto; */
+    width: 32%;
+}
+
+.shitsugen-page-g1 {
+    margin-bottom: 2%;
+}
+
+.logo-figure {
+    margin-bottom: 50px;
+}
+
+
+
+.logo-figure img {
+    width: 100%;
     display: block;
     margin: 0 auto;
-    width: 40%;
+    margin-bottom: 16px;
     border-radius: 40px;
+}
+
+.logo-figure figcaption {
+    font-size: 14px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
 }
 
 
