@@ -413,7 +413,6 @@ figure {
 
 .about-part-c-title {
     margin: 0px;
-    padding-left: 28px;
     font-size: 30px;
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 500;
@@ -434,7 +433,6 @@ figure {
     flex: 0 0 auto;
     flex-direction: column;
     gap: 6px;
-    padding-left: 28px;
 }
 
 .about-part-c-a-time,
@@ -1003,17 +1001,14 @@ figure {
         width: 100%;
     }
 
-    .kojinsyoukai {
-        padding-left: 60px;
-        padding-right: 60px;
-    }
-
     .nav {
         padding-left: 60px;
         padding-right: 60px;
     }
 
-    .sakuhin-g {
+    .kojinsyoukai,
+    .sakuhin-g,
+    .footer {
         padding-left: 60px;
         padding-right: 60px;
     }
@@ -1033,6 +1028,15 @@ figure {
         width: 100%;
     }
 
+    .page-photo .part-c {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .page-about .part-c {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
 
 
 
@@ -1167,8 +1171,9 @@ figure {
         padding-top: 8px;
         padding-bottom: 8px;
 
-
     }
+
+
 
     /* ======================================================================== */
     /* ===============================tp-page-end============================= */
@@ -1219,7 +1224,10 @@ figure {
 
 
     }
-
+    .page-about .part-c {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 
 
 
