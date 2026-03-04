@@ -994,6 +994,7 @@ figure {
 /* ======================================================================== */
 /* ======================================================================== */
 
+/* ===============tp-page-pad-star================= */
 @media (min-width: 810px) and (max-width: 1199px) {
 
     .main {
@@ -1038,11 +1039,38 @@ figure {
         padding-right: 60px;
     }
 
+    /* ===============tp-page-pad-end================= */
 
 
+    /* ===========zenkikadai-pad-star================= */
+    .zenki-img-5-1,
+    .zenki-img-5-2,
+    .zenki-img-6-1,
+    .zenki-img-6-2 {
+        width: 47.8%;
+        border-radius: 40px;
+        border: 1px solid #dddddd;
+    }
 
+    /* ===========zenkikadai-pad-end================= */
 
+    /* ===========kojiki-pad-star================ */
 
+    .cyousa-img {
+        width: 47.8%;
+        border-radius: 40px;
+        border: 1px solid #dddddd;
+    }
+
+    .kojiki-img-6,
+    .kojiki-img-7,
+    .kojiki-img-8 {
+        width: 47.8%;
+        border-radius: 40px;
+        border: 1px solid #dddddd;
+    }
+
+    /* ===========kojiki-pad-end================= */
 }
 
 
