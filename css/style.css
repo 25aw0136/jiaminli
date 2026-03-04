@@ -366,7 +366,7 @@ figure {
 
 
 .footer {
-    padding-left: 10px;
+    /* padding-left: 10px; */
     margin-top: 80px;
     font-size: 14px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -408,7 +408,7 @@ figure {
     overflow: hidden;
     padding: 0px;
     position: relative;
-    width: 100%;
+    /* width: 100%; */
 }
 
 .about-part-c-title {
@@ -1224,6 +1224,7 @@ figure {
 
 
     }
+
     .page-about .part-c {
         padding-left: 20px;
         padding-right: 20px;
