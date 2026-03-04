@@ -25,10 +25,14 @@ body {
 }
 
 .icon-pc {
-    margin-top: 40px;
+    /* margin-top: 40px; */
     display: block;
     width: 19%;
     border-radius: 40px;
+}
+
+.kojinsyoukai {
+    padding-top: 40px;
 }
 
 .icon-phone {
@@ -368,11 +372,11 @@ figure {
     font-family: "Zen Kaku Gothic New", sans-serif;
     font-weight: 400;
     font-style: normal;
-    color: #1d1d1f;
+    color: #1d1d1fb2;
 }
 
 .part-d {
-    padding-bottom: 30px;
+    padding-bottom: 16px;
 }
 
 .blog-footer {
@@ -980,18 +984,6 @@ figure {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* ======================================================================== */
 /* =======================photo-shujing-end============================ */
 
@@ -999,6 +991,47 @@ figure {
 
 
 
+/* ============================ Mobile (≤ 1199px) ========================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ======================================================================== */
+
+@media (min-width: 810px) and (max-width: 1199px) {
+
+    .main {
+        max-width: 810px;
+        width: 100%;
+    }
+
+    .kojinsyoukai {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .nav {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .sakuhin-g {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    .sakuhin-a,
+    .sakuhin-b,
+    .sakuhin-c,
+    .sakuhin-d {
+        width: 330px;
+    }
+
+    .sakuhin {
+        gap: 30px;
+    }
+
+    .sakuhin img {
+        width: 100%;
+    }
 
 
 
@@ -1006,41 +1039,24 @@ figure {
 
 
 
+}
+
+
+/* ============================ Mobile (≤ 1199px) ========================== */
+/* ======================================================================== */
+/* ======================================================================== */
+/* ===================================end================================== */
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ============================ Mobile (≤ 810px) ========================== */
+/* ============================ Mobile (≤ 809px) ========================== */
 /* ======================================================================== */
 /* ======================================================================== */
 /* ======================================================================== */
 /* ===============================tp-page-m-star============================= */
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 809px) {
 
 
     body {
@@ -1060,7 +1076,7 @@ figure {
     }
 
     .icon-phone {
-        margin-top: 20px;
+        /* margin-top: 20px; */
         display: block;
         width: 25%;
         border-radius: 28px;
@@ -1092,6 +1108,10 @@ figure {
         font-weight: 400;
         font-style: normal;
         color: #1d1d1fb2;
+    }
+
+    .kojinsyoukai {
+        padding-top: 20px;
     }
 
     .nav {
