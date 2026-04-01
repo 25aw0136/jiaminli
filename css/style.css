@@ -577,6 +577,16 @@ figure {
     color: #1D1D1F;
 }
 
+.l-title {
+    margin-top: 50px;
+    margin-bottom: -30px;
+    font-size: 30px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #1D1D1F;
+}
+
 .p-blog {
     font-size: 15px;
     font-family: "Zen Kaku Gothic New", sans-serif;
