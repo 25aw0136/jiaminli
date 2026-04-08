@@ -1032,7 +1032,64 @@ figure {
 /* ======================================================================== */
 /* =======================photo-shujing-end============================ */
 
+/* ======================================================================== */
+/* =======================photo-portraits-star============================ */
 
+
+.page-portraits {
+    background-color: #FFF;
+
+}
+
+.portraits-syoukai {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.portraits-syoukai-g {
+    margin-top: -10px;
+    padding-left: 10px;
+    margin-bottom: 60px;
+    font-size: 15px;
+    font-family: "Zen Kaku Gothic New", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #1D1D1F;
+    line-height: 2;
+}
+
+.blog-photo-portraits {
+    margin-top: 10%;
+}
+
+.blog-photo-portraits img {
+    width: 48%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 2%;
+    border-radius: 20px;
+}
+
+.portraits-tit-img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+.portraits-group {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 4%;
+
+}
+
+/* ======================================================================== */
+/* =======================photo-portraits-end============================ */
 
 
 
@@ -1477,7 +1534,23 @@ figure {
     /* ======================================================================== */
     /* =======================photo-shujing-m-end============================ */
 
+    /* ======================================================================== */
+    /* =======================photo-portraits-m-star============================ */
+    .blog-photo-portraits img {
+        width: 100%;
+        margin-bottom: 40px;
+    }
 
+    .portraits-group {
+        margin-bottom: 0px;
+    }
+
+    .portraits-syoukai-g {
+        margin-top: -30px;
+    }
+
+    /* ======================================================================== */
+    /* =======================photo-portraits-m-end============================ */
 
 
 
@@ -1497,22 +1570,6 @@ figure {
     .logo-figure img {
         border-radius: 34px;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     /* ======================================================================== */
     /* =======================nihonshitsugen-m-end============================ */
