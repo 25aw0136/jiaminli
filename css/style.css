@@ -454,7 +454,8 @@ figure {
 .about-part-c-c-time,
 .about-part-c-d-time,
 .about-part-c-e-time,
-.about-part-c-f-time {
+.about-part-c-f-time,
+.about-part-c-g-time {
     margin: 0;
     font-size: 15px;
     font-family: "Zen Kaku Gothic New", sans-serif;
@@ -468,7 +469,8 @@ figure {
 .about-part-c-c-h3,
 .about-part-c-d-h3,
 .about-part-c-e-h3,
-.about-part-c-f-h3 {
+.about-part-c-f-h3,
+.about-part-c-g-h3 {
     margin: 0;
     font-size: 15px;
     font-family: "Zen Kaku Gothic New", sans-serif;
