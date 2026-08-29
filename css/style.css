@@ -9,6 +9,170 @@ body {
     /* 水平居中 */
 }
 
+/* ======================================================================== */
+/* ============================== night mode ============================== */
+
+body.dark-theme {
+    background: #17181b;
+    color: #f2f2f4;
+}
+
+body.dark-theme .h1,
+body.dark-theme .sakuhin-h3,
+body.dark-theme .sakuhin-h2,
+body.dark-theme .about-part-c-title,
+body.dark-theme .about-part-c-a-time,
+body.dark-theme .about-part-c-b-time,
+body.dark-theme .about-part-c-c-time,
+body.dark-theme .about-part-c-d-time,
+body.dark-theme .about-part-c-e-time,
+body.dark-theme .about-part-c-f-time,
+body.dark-theme .about-part-c-g-time,
+body.dark-theme .about-part-c-a-h3,
+body.dark-theme .about-part-c-b-h3,
+body.dark-theme .about-part-c-c-h3,
+body.dark-theme .about-part-c-d-h3,
+body.dark-theme .about-part-c-e-h3,
+body.dark-theme .about-part-c-f-h3,
+body.dark-theme .about-part-c-g-h3,
+body.dark-theme .about-part-c-a-setsumei,
+body.dark-theme .about-part-c-b-setsumei,
+body.dark-theme .about-part-c-c-setsumei,
+body.dark-theme .h1-blog,
+body.dark-theme .h2-blog,
+body.dark-theme .h3-blog,
+body.dark-theme .l-title,
+body.dark-theme .p-blog,
+body.dark-theme .p-blog-1,
+body.dark-theme .p-blog-2,
+body.dark-theme .p-blog-3,
+body.dark-theme .p-blog-4,
+body.dark-theme .p-blog-5,
+body.dark-theme .p-blog-6,
+body.dark-theme .portraits-syoukai,
+body.dark-theme .portraits-syoukai-g,
+body.dark-theme .logo-figure figcaption,
+body.dark-theme .portfolio-button-pc,
+body.dark-theme .portfolio-button-phone {
+    color: #f2f2f4;
+}
+
+body.dark-theme .syousai-pc,
+body.dark-theme .syousai-phone,
+body.dark-theme .sakuhin-p,
+body.dark-theme .footer,
+body.dark-theme .blog-footer {
+    color: #b9bbc2;
+}
+
+body.dark-theme .menu {
+    border-color: #42454d;
+    background: #2a2c32;
+}
+
+body.dark-theme.page-design .button-design,
+body.dark-theme.page-photo .button-photo,
+body.dark-theme.page-about .button-about {
+    border-color: #51545d;
+    background: #3a3d45;
+    box-shadow: 0 4px 13px -2px rgba(0, 0, 0, 0.48);
+}
+
+body.dark-theme.page-design .button-photo,
+body.dark-theme.page-design .button-about,
+body.dark-theme.page-photo .button-design,
+body.dark-theme.page-photo .button-about,
+body.dark-theme.page-about .button-design,
+body.dark-theme.page-about .button-photo {
+    background: #2a2c32;
+}
+
+body.dark-theme.page-design .button-design-a,
+body.dark-theme.page-photo .button-photo-a,
+body.dark-theme.page-about .button-about-a {
+    color: #ffffff;
+}
+
+body.dark-theme.page-design .button-photo-a,
+body.dark-theme.page-design .button-about-a,
+body.dark-theme.page-photo .button-design-a,
+body.dark-theme.page-photo .button-about-a,
+body.dark-theme.page-about .button-design-a,
+body.dark-theme.page-about .button-photo-a {
+    color: #bec1c9;
+}
+
+body.dark-theme.page-design .button-photo:hover,
+body.dark-theme.page-design .button-about:hover,
+body.dark-theme.page-photo .button-design:hover,
+body.dark-theme.page-photo .button-about:hover,
+body.dark-theme.page-about .button-design:hover,
+body.dark-theme.page-about .button-photo:hover {
+    background: #4b4f59;
+}
+
+body.dark-theme.page-enildettod,
+body.dark-theme.page-bloomnicole,
+body.dark-theme.page-shujing,
+body.dark-theme.page-portraits {
+    background: #17181b;
+}
+
+body.dark-theme .nipponshitsugen-link,
+body.dark-theme.page-zenkikadai .sakuhin-link {
+    color: #b6ddd7;
+}
+
+body.dark-theme .button-back {
+    border-color: #5a5d65;
+    background: #2c2f36;
+}
+
+/* Design の作品詳細ページは、制作時の配色をそのまま維持する。 */
+body.dark-theme.page-zenkikadai {
+    background-color: #909CBD;
+}
+
+body.dark-theme.page-nihonshitsugen {
+    background-color: #B1CD9A;
+}
+
+body.dark-theme.page-kojiki {
+    background-color: #F4EFEF;
+}
+
+body.dark-theme.page-saitosekkei {
+    background-color: #C58586;
+}
+
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .h1-blog,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .h2-blog,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .h3-blog,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .l-title,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-1,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-2,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-3,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-4,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-5,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .p-blog-6,
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .logo-figure figcaption {
+    color: #1d1d1f;
+}
+
+body.dark-theme.page-nihonshitsugen .nipponshitsugen-link {
+    color: #0d4348;
+}
+
+body.dark-theme.page-zenkikadai .sakuhin-link {
+    color: #1d1d1f;
+}
+
+body.dark-theme:is(.page-zenkikadai, .page-nihonshitsugen, .page-kojiki, .page-saitosekkei) .button-back {
+    border-color: #0f0f0f;
+    background: #252525;
+}
+
 .main {
     max-width: 1000px;
     width: 100%;
